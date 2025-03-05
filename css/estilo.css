@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color :grey;
+    
+}
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    background-color:red;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.logo-ac{
+    max-width: 5rem;
+}
+.nav-list{
+    list-style-type: none;
+    margin-top: 3%;
+    display: flex;
+    gap : 1rem;
+    margin-bottom: 1%;
+    text-decoration-color: aliceblue;
+    margin-right: 1rem;
+}
+.nav-list li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(244, 243, 243);
+    text-align: center;
+}
+.logo-marcas{
+    display: none;
+    position: absolute;
+    border-radius: 5%;
+    border-color: red;
+}
+.icontacto a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.marca:hover .logo-marcas{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: repeat(5, 100px);
+    gap:20px;
+    border-color: black;
+    align-items: stretch;
+    justify-content: center ;
+    background-color: thistle;
+    gap:1rem;
+    margin-left: -35%;
+    margin-right: 20%;
+    margin-top: 0%;
+    border-width: 1rem;
+    
+}
+
+.logo-marcas {
+    text-decoration: none;
+    margin-top: 30%;
+    color:black;
+    display:block;
+}
+.nml{
+    width: 5rem;
+    gap: 1.5rem;
+    border-radius: 15%;
+}
+.quienes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quieness{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.imgquien{
+    max-width: 22rem;
+}
+.txtquien{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+
+}
+.txtquien2{
+    text-align: justify;
+    display: flex;
+    color:black
+    
+}
+.txtquien2 p{
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.pultquien{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    font-size: ;
+}
+.quien{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: double;
+    font-size: 5rem;
+}
+.diferencia{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: double;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.footer-area{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    margin-top: 20%;
+    margin-bottom: -10%;
+    
+    
+
+}
+.foottext{
+    margin-top: 10px;
+}
+.row{
+    margin-top: 5%;
+    
+}
+.marcas{
+    text-align: center;
+    margin-top: 1rem;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.marca-logo{
+    width: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.marcaCabeza{
+    display: flex;
+    -ms-flex-item-align: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.prescanuelas{
+    align-items: center;
+    max-width: 40rem;
+    position: static;
+}
+.imgprinccanuelas{
+
+    justify-items: center;
+}
+.titulos-acordion-canuelas{
+    font-size: larger;
+    color: rgba(4, 4, 118, 0.501);
+    margin-left: 15%;
+}
+.canuelas-med-dulce{
+    width: 12rem;
+}
+.canuelas-med-d{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 5%;
+    background-color: rgba(177, 163, 143, 0.353);
+}
+.medialuna-title{
+    font-size: 25px;
+    color: rgba(25, 25, 119, 0.611);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.med-dul-desc{
+    font-size: 13px;
+    color: rgba(55, 42, 26, 0.489);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.canuelas-med-salada{
+    width: 27rem;
+}
+.canuelas-factureria{
+ width: 35rem;
+ margin-left: 5%s;
+}
+.pan{
+    max-width: 35rem;
+    align-content: center;
+}
+.accordion-body{
+    align-items: center;
+}
+.canuelas{
+    justify-content: center;
+    max-width: 35rem;
+}
+.accordion-body{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.independencia-carta{
+    width: 15rem;
+    
+}
+.independencia-productos{
+    margin-left: 15%;
+}
+.card{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    
+}
+.indep-title{
+    color: red;
+}
+.card-text{
+    color:cadetblue
+}
+.amoedo-principal{
+    justify-content: center;
+    align-items: center;
+    max-width: 35rem;
+    
+}
+.amoedo2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 50rem;
+    margin-left: 5%;
+
+}
+.amoedo-2lin1{
+    width:auto;
+    max-width: 15rem;
+    gap:0.5rem
+}
+.amoedo-2lin3{
+    width: auto;
+    max-width: 15rem;
+    gap:0.5rem
+}
+.amoedo-3lin1{
+    width: auto;
+    max-width: 20rem;
+    gap:0.5rem
+}
+.amoedo-3lin2{
+    width: auto;
+    max-width: 20rem;
+    gap:0.5rem
+}
+.p-amoedo{
+    color: black;
+    text-align: center;
+}
+.amoedo-titulo{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+.lista-tarta{
+    color: black;
+}
+.medial-cremachel{
+    max-width: 30rem;
+}
+.titulo-cremachel{
+    color: red;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-top: 5%;
+}
+.cremachel-prin{
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 15%;
+}
+.med-cremachel{
+    display: flex;
+    align-items: center;
+}
