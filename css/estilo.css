@@ -319,3 +319,16 @@ a{
     display: flex;
     align-items: center;
 }
+.carousel{
+    margin-top: 5%;
+}
+
+.pres-easy{
+    width: 35rem;
+    max-height: 40rem;
+margin-left: 5%;
+}
+.limonadas-easy{
+    display: flex;
+    align-items: center;
+}
